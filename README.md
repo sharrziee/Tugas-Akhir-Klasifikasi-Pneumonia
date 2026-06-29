@@ -1,4 +1,4 @@
-# Klasifikasi Pneumonia Pediatrik Menggunakan Self-Supervised Contrastive Learning pada Label Terbatas
+# Implementasi Self-Supervised Contrastive Learning untuk Klasifikasi Pneumonia pada Citra X Ray Thorax dengan Ketersediaan Label Terbatas
 
 Repositori ini berisi keseluruhan kode sumber (*source code*) dari penelitian tugas akhir yang disusun oleh Kirouch Alqornie Gymnastiar. Penelitian ini berfokus pada penyelesaian masalah kelangkaan label (*label scarcity*) dan ketidakseimbangan kelas (*imbalanced data*) pada diagnosis pneumonia anak menggunakan arsitektur **SimCLR** dan **ResNet-18**.
 
