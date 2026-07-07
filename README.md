@@ -2,7 +2,7 @@
 
 Repositori ini berisi keseluruhan kode sumber (*source code*) dari penelitian tugas akhir yang disusun oleh Kirouch Alqornie Gymnastiar. Penelitian ini berfokus pada penyelesaian masalah kelangkaan label (*label scarcity*) dan ketidakseimbangan kelas (*imbalanced data*) pada diagnosis pneumonia anak menggunakan arsitektur **SimCLR** dan **ResNet-18**.
 
-## 📊 Arsitektur Data: Skenario Dua Dataset (Cross-Domain)
+## Arsitektur Data: Skenario Dua Dataset (Cross-Domain)
 Penelitian ini mengadopsi skenario transfer pembelajaran lintas domain yang memanfaatkan dua himpunan data independen dari Kaggle:
 
 1. **Domain Sumber (Pre-training): [RSNA Pneumonia Detection Challenge](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/)**
@@ -12,7 +12,7 @@ Penelitian ini mengadopsi skenario transfer pembelajaran lintas domain yang mema
    * **Karakteristik:** Citra rontgen dada pediatrik (anak-anak usia 1-5 tahun) berjumlah 5.856 citra dengan distribusi kelas yang sangat timpang (27% Normal vs 73% Pneumonia).
    * **Peran:** Digunakan pada fase *Supervised Fine-Tuning*. Klasifikasi akhir disesuaikan menggunakan *Weighted Random Sampler* untuk memitigasi bias prediksi ke kelas mayoritas.
 
-## 🚀 Infrastruktur Komputasi & Instruksi Eksekusi
+## Infrastruktur Komputasi & Instruksi Eksekusi
 
 Mengingat ukuran dataset yang masif (lebih dari 100MB), dataset dan bobot model (`.pt`/`.pth`) **tidak disertakan** di dalam repositori ini sesuai kebijakan batasan limit GitHub. Namun, alur I/O telah dirancang sangat efisien. 
 
