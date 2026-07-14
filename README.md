@@ -58,7 +58,7 @@ Untuk menghindari kehabisan memori (OOM) pada Google Colab, pemrosesan awal repr
 
 **Langkah 2: Eksekusi Google Colab (Mulai dari Cell 1)**
 
-Buka file notebook utama (RSNA PNEUMONIA 14 JULI.ipynb) di Google Colab. Kode dirancang dengan arsitektur I/O terakselerasi:
+Buka file notebook utama (Pneumonia.ipynb) di Google Colab. Kode dirancang dengan arsitektur I/O terakselerasi:
 
 - Autentikasi & Koneksi: Notebook akan meminta izin mounting ke Google Drive Anda.
 
